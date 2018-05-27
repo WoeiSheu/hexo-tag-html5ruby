@@ -1,15 +1,16 @@
 hexo.extend.tag.register('ruby', function(args,content) {
-  var ruby_tag = "<ruby>";
+  let ruby_tag = "<ruby>";
   content = content.replace('\r\n',';').replace('\n',';').replace('\r','');
-  var segements = content.split(';');
-  for( segement in segements ) {
-    segement = segment.trim();
-    if(segment == '') {
+  let segments = content.split(';');
+  for( let segment of segments ) {
+    segment = segment.trim();
+    console.log(segment);
+    if(!segment) {
       continue;
     }
-    var splited = segement.split('|');
-    var origin = splited[0].trim();
-    var annotation = origin;
+    let splited = segment.split('|');
+    let origin = splited[0].trim();
+    let annotation = origin;
     if (splited.length > 1) {
       annotation = splited[1].trim();
     }
