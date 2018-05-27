@@ -1,4 +1,4 @@
-# hexo-tag-ruby
+# hexo-tag-html5ruby
 A ruby of html5 tag for hexo.
 
 
