@@ -1,0 +1,14 @@
+{
+  "name": "hexo-tag-ruby",
+  "version": "0.1.0",
+  "description": "Html5 ruby tag for Hexo",
+  "main": "index",
+  "keywords": [
+    "hexo",
+    "tag-ruby",
+    "annotation"
+  ],
+  "author": "Weoi Sheu",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/WoeiSheu/hexo-tag-ruby"
+}
